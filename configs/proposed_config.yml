@@ -1,0 +1,52 @@
+# Data
+label: ['A', 'B']
+image_size: 224
+
+crop: True
+jitter: True
+noise: True
+equalize: False
+injection: True
+
+# PATH
+tr_fake_dataset_path: ""
+tr_injection_fake_data_path: ""
+tr_live_dataset_path: ""
+
+te_fake_dataset_path: ""
+te_live_dataset_path: ""
+
+attack_fake_DDPM_dataset_path: ""
+attack_fake_UVC_dataset_path: ""
+
+ckp_path: ""
+log_path: ""
+
+# Train
+model: ''
+enc_model: 'densenet121'
+pretrained: True
+cls_num: 2
+seed: 1004
+
+epoch: 30
+device: "cuda"
+
+lr: 0.00001
+step_size: 10
+gamma: 0.5
+
+kld_lambda: 1
+mmd_lambda: 1
+cls_lambda: 0.8
+
+batch_size: 16
+weight_decay: 0.000001
+momentum: 0.9
+b1: 0.5
+b2: 0.999
+
+do_ckp_save: True
+do_ckp_load: False
+do_print: True
+do_logging: True
