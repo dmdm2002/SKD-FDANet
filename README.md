@@ -1,5 +1,9 @@
 # Iris-Spoof-Detection
 
+## Weight
+Detector weight
+https://drive.google.com/drive/folders/1xSjR7sbvZMYb-e4jKUMbbbWD5w1Byo0T?usp=drive_link
+
 ## Dataset
 ### Fake iris image by GenerativeAI
 
