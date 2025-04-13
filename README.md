@@ -4,7 +4,7 @@
 Detector weight
 https://drive.google.com/drive/folders/1xSjR7sbvZMYb-e4jKUMbbbWD5w1Byo0T?usp=drive_link
 
-##Generator Weight
+## Generator Weight
 https://drive.google.com/drive/folders/194FtwkTg9nIk9vKFjw-M3DYSL--MxjXs?usp=drive_link
 
 ## Dataset
