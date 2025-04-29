@@ -13,7 +13,7 @@ class FeatureWiseKLD(nn.Module):
         interval = len(layer_outs_xo)
         losses = 0
         for i in range(interval):
-            losses += self.kd_div(self.log_softmax(layer_outs_xo[i]), self.log_softmax(layer_outs_xa[i]))
+            losses += self.kd_div(self.log_softmax(layer_outs_xa[i]), self.log_softmax(layer_outs_xo[i]))
 
         loss = losses / interval
 
